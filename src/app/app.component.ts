@@ -23,11 +23,11 @@ import { trigger, state, style, transition, animate, keyframes, group } from '@a
         transform: 'translateX(0) scale(1)'
       })),
       state('highlighted', style({
-        backgroundColor: 'blue',
+        'background-color': 'blue',
         transform: 'translateX(100px) scale(1)'
       })),
       state('shrunken', style({
-        backgroundColor: 'green',
+        'background-color': 'green',
         transform: 'translateX(0) scale(0.5)'
       })),
       transition('normal => highlighted', animate(300)),
